@@ -19,7 +19,7 @@ This is a pipline for run smc++ analysis.
 	chmod 757 seqbility-20091110/gen_mask
 ```
 ## usage
-	```
+```
 	runsmcpp.bash -i inputvcffile -g G1 -o pwd -n threads -u 6.18e-8
 	runsmcpp.bash -i inputvcffile -gf Groupfile -o pwd -n threads -u 1.18e-7
 	runsmcpp.bash -i inputvcffile -g G1 -gf Groupfile -o pwd -n threads -u 2.81e-8

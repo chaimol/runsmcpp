@@ -10,18 +10,19 @@ This is a pipline for run smc++ analysis.
 - bwa(只有提供基因组文件时需要)
 
 ##Install this pipline
-	```
+```
 	chmod 757 runsmcpp.bash
 	chmod 757 makeMappabilityMask.py
 	chmod 757 getvcfchr.py
-	```
+```
 ## usage
-	`runsmcpp.bash -i inputvcffile -g G1 -o pwd -n threads -u 6.18e-8`
-	`runsmcpp.bash -i inputvcffile -gf Groupfile -o pwd -n threads -u 1.18e-7`
-	`runsmcpp.bash -i inputvcffile -g G1 -gf Groupfile -o pwd -n threads -u 2.81e-8`
-	`runsmcpp.bash -i inputvcffile -g G1 -gf Groupfile -o pwd -n threads -u 2.81e-8 -G genome.fa`
-	`runsmcpp.bash -i inputvcffile -g G1 -gf Groupfile -o pwd -n threads -u 2.81e-8 -m genome.mask.bed.gz`
-
+	```
+	runsmcpp.bash -i inputvcffile -g G1 -o pwd -n threads -u 6.18e-8
+	runsmcpp.bash -i inputvcffile -gf Groupfile -o pwd -n threads -u 1.18e-7
+	runsmcpp.bash -i inputvcffile -g G1 -gf Groupfile -o pwd -n threads -u 2.81e-8
+	runsmcpp.bash -i inputvcffile -g G1 -gf Groupfile -o pwd -n threads -u 2.81e-8 -G genome.fa
+	runsmcpp.bash -i inputvcffile -g G1 -gf Groupfile -o pwd -n threads -u 2.81e-8 -m genome.mask.bed.gz
+```
 #### 必须提供的参数
 	-i 指定输入的vcf文件，注意输入的vcf必须有vcf完整的头部
 	-g 指定分组名称（必须是字目开头的，不能有特殊字符），只能是一个分组名称，不支持多个分组

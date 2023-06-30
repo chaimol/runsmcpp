@@ -14,6 +14,9 @@ This is a pipline for run smc++ analysis.
 	chmod 757 runsmcpp.bash
 	chmod 757 makeMappabilityMask.py
 	chmod 757 getvcfchr.py
+	chmod 757 seqbility-20091110/gen_raw_mask.pl
+	chmod 757 seqbility-20091110/splitfa
+	chmod 757 seqbility-20091110/gen_mask
 ```
 ## usage
 	```

@@ -9,7 +9,7 @@ This is a pipline for run smc++ analysis.
 - perl
 - bwa(只有提供基因组文件时需要)
 
-##Install this pipline
+## Install this pipline
 ```
 	chmod 757 runsmcpp.bash
 	chmod 757 makeMappabilityMask.py
@@ -49,3 +49,6 @@ This is a pipline for run smc++ analysis.
 
 #### Author：chaimol@163.com
 #### Date:2023.06.29
+
+##引用本软件
+Frank Chai. (2024). chaimol/runsmcpp: release the version 0.1 (V0.1). Zenodo. https://doi.org/10.5281/zenodo.10566226
